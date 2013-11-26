@@ -1,0 +1,88 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	padding: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1F786C;
+}
+
+h1 {
+	color: #07AC81;
+	text-align: center;
+	font-size: 2em;
+}
+
+h2 {
+	color: #1F786C;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+p {
+	color: #304747;
+	text-align: center;
+	font-size: 1em;
+}
+
+.logo {
+	width: 25%;
+}
+
+
+label { 
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	font-size: 1rem;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+.input-text {
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	background-image: linear-gradient(to bottom, #E0FCEE,#fff);
+	border-radius: 2px;
+	width: 100%;
+}
+
+input + label {
+	display: inline;
+}
+
+label {
+	padding: 0.5em 0em;
+}
+
+textarea {
+	max-width: 100%;
+	height: 6em;
+}
+
+button {
+	font-size: 2rem;
+	padding: 0.5em;
+	border-radius: 10px;
+	border: 2px solid #E0FCEE;
+	background-image: linear-gradient(to bottom, #1F786C, #304747);;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.error{
+	color: #f33;
+	display: block;
+}
+.error-input{
+	border:3px solid #f33;
+}
